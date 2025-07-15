@@ -3,10 +3,9 @@ node_modules/
 /frontend/build/
 /backend/uploads/
 package-lock.json
-package.json
+
 /frontend/eslint.config.js
 /frontend/package-lock.json
-/frontend/package.json
+
 /backend/node_modules/
 /frontend/.gitignore
-/frontend/vite.config.js

@@ -396,7 +396,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import io from 'socket.io-client';
 import { v4 as uuidv4 } from 'uuid';
-import MessageInput from './MessageInput.js';
+import MessageInput from './MessageInput.jsx';
 
 const socket = io.connect("http://localhost:5000");
 

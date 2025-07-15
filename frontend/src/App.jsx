@@ -258,8 +258,8 @@
 
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate, useNavigate } from 'react-router-dom';
-import InterestSelector from './components/InterestSelector.js';
-import ChatRoom from './components/ChatRoom.js';
+import InterestSelector from './components/InterestSelector.jsx';
+import ChatRoom from './components/ChatRoom.jsx';
 
 import './app.css';
 function App() {

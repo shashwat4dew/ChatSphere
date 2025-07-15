@@ -103,7 +103,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: ['http://localhost:3000', 'http://localhost:5002'], // Your frontend URLs
+    origin: ['http://localhost:3000', 'http://localhost:5002', 'http://localhost:5173'], // Your frontend URLs
     methods: ["GET", "POST"],
     credentials: true,
   }
@@ -111,7 +111,7 @@ const io = new Server(server, {
 
 // Middleware setup
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:5002'],
+  origin: ['http://localhost:3000', 'http://localhost:5002', 'http://localhost:5173'],
   methods: ["GET", "POST"],
   credentials: true,
 }));
